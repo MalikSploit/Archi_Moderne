@@ -1474,6 +1474,55 @@ LIMIT 1
 </ul>
 </li>
 </ul>
+<h3 id="comparaison-symmary">Comparaison Symmary<a class="headerlink" href="#comparaison-symmary" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center">CSV</th>
+<th align="center">Avro</th>
+<th align="center">Parquet</th>
+<th align="center">Delta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Human Readable</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Nested Type</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Compressed</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+</tr>
+<tr>
+<td>Query Performance</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+</tr>
+<tr>
+<td>Single Row Update</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">✓</td>
+</tr>
+</tbody>
+</table>
 <h3 id="streaming-ingest-and-consumption">Streaming Ingest and Consumption<a class="headerlink" href="#streaming-ingest-and-consumption" title="Permanent link"></a></h3>
 <ul>
 <li><strong>Application</strong>: Facilitates streaming data into Delta tables, supporting real-time use cases and operational BI.</li>
